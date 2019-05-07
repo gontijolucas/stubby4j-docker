@@ -5,6 +5,8 @@ ONBUILD ADD stubby.yml /usr/local/stubby.yml
 WORKDIR /usr/local/
 
 ADD ./build-stub.sh /usr/local/build-stub.sh
+ADD ./start-stubby4j.sh /usr/local/start-stubby4j.sh
+
 
 # RUN ["chmod", "+x", "/usr/local/build-stub.sh"]
 
