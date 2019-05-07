@@ -1,6 +1,6 @@
 # Stubby4j Docker
 
-Version: [6.0.1](https://search.maven.org/search?q=g:io.github.azagniotov%20AND%20a:stubby4j)
+Version: [6.0.2](https://search.maven.org/search?q=g:io.github.azagniotov%20AND%20a:stubby4j)
 
 
 Based on: [Stubby4J 3.3.0](https://hub.docker.com/r/joncanning/stubby4j)
