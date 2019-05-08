@@ -1,4 +1,4 @@
-FROM openjdk:8-alpine
+FROM openjdk:8
 ONBUILD ADD stubby.yml /usr/local/stubby.yml
 WORKDIR /usr/local/
 ADD ./build-stub.sh /usr/local/build-stub.sh
