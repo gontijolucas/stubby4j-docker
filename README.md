@@ -19,5 +19,5 @@ Set STUBBY_PORT in environment
         environment:
           STUBBY_PORT: 8882
         volumes:
-          - ./stubby.yml:/usr/local/stubby.yml:Z
+          - someproject/stubs/:/usr/local/stub
 ```
