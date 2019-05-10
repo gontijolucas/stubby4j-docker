@@ -8,7 +8,7 @@ Set STUBBY_PORT in environment
 
 ### This version works with multiple files.
 
-Map you stub directory like the follow example:
+Map you **stub directory** like the follow example:
 
 # Docker Compose example
 
