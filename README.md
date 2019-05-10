@@ -1,13 +1,14 @@
 # Stubby4j Docker
 
-Version: [6.0.2](https://search.maven.org/search?q=g:io.github.azagniotov%20AND%20a:stubby4j)
-
+Version: [3.3.0](https://search.maven.org/search?q=g:io.github.azagniotov%20AND%20a:stubby4j)
 
 Based on: [Stubby4J 3.3.0](https://hub.docker.com/r/joncanning/stubby4j)
 
-Requires stubby.yml to be present
-
 Set STUBBY_PORT in environment
+
+### This version works with multiple files.
+
+Map you stub directory like the follow example:
 
 # Docker Compose example
 
@@ -19,5 +20,5 @@ Set STUBBY_PORT in environment
         environment:
           STUBBY_PORT: 8882
         volumes:
-          - someproject/stubs/:/usr/local/stub
+          - ./someproject/stubs/:/usr/local/stub
 ```
